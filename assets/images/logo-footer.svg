@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 120" width="560" height="120">
+  <defs>
+    <linearGradient id="fElectricGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="fWaterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="fShieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="fGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#38BDF8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Modern Dual Emblem -->
+  <g transform="translate(60, 60)" filter="url(#fGlow)">
+    <rect x="-48" y="-48" width="96" height="96" rx="24" fill="url(#fShieldGrad)" stroke="#475569" stroke-width="2"/>
+    
+    <!-- Water Drop -->
+    <path d="M -16,14 C -16,28 14,32 14,14 C 14,-2 -2,-18 -2,-26 C -2,-26 -16,-2 -16,14 Z" 
+          fill="url(#fWaterGrad)" opacity="0.95"/>
+    <ellipse cx="2" cy="18" rx="6" ry="3.5" fill="#BAE6FD" opacity="0.7"/>
+
+    <!-- Lightning Bolt -->
+    <path d="M 6,-32 L -14,-2 L 0,0 L -8,30 L 16,-4 L 2,-6 Z" 
+          fill="url(#fElectricGrad)"/>
+
+    <circle cx="18" cy="-20" r="3" fill="#FEF08A"/>
+    <circle cx="-24" cy="22" r="2.5" fill="#7DD3FC"/>
+  </g>
+
+  <!-- Brand Typography (Light on Dark) -->
+  <g transform="translate(130, 48)">
+    <text font-family="'Tajawal', 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="27" fill="#FFFFFF" letter-spacing="-0.3">
+      <tspan fill="#38BDF8">سباك</tspan> و <tspan fill="#FBBF24">كهربائي</tspan> صيانة الباكستانى
+    </text>
+  </g>
+
+  <!-- Brand Subtitle / Tagline -->
+  <g transform="translate(132, 80)">
+    <text font-family="'Tajawal', 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="14" fill="#CBD5E1" letter-spacing="0.2">
+      خدمات صيانة السباكة والكهرباء الاحترافية • حي المونسية والرياض
+    </text>
+  </g>
+
+  <!-- English Micro Tag -->
+  <g transform="translate(132, 101)">
+    <text font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="600" font-size="10.5" fill="#64748B" letter-spacing="0.8">
+      PAKISTANI PLUMBER &amp; ELECTRICIAN MAINTENANCE • RIYADH
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://umerelectricianriyadh.com
+
+# Sitemaps
+Sitemap: https://umerelectricianriyadh.com/sitemap.xml
